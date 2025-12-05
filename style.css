@@ -1,0 +1,111 @@
+/* ===== GENERAL STYLES ===== */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #fdfdfb;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #7ad7d0, #b9f3e4);
+    padding: 30px 0;
+    text-align: center;
+    color: #04332f;
+    font-size: 32px;
+    font-weight: 700;
+    border-bottom: 4px solid gold;
+}
+
+nav {
+    background: #ffffff;
+    border-bottom: 2px solid gold;
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #045c57;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: goldenrod;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+/* ===== CARDS ===== */
+.card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-left: 6px solid gold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #045c57;
+}
+
+/* ===== LINKS ===== */
+.button {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #7ad7d0;
+    color: #04332f;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: gold;
+    color: #333;
+}
+
+/* ===== IMAGES ===== */
+.hero-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+/* ===== AUDIO ===== */
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* ===== CONTACT FORM ===== */
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #7ad7d0;
+    padding: 12px 20px;
+    border: none;
+    color: #04332f;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: gold;
+}
